@@ -3,7 +3,6 @@ from flask import Flask, render_template, request
 import json
 import urllib2
 import urllib
-# from flask.ext.envconfig import EnvConfig
 from os.path import join, dirname
 from dotenv import load_dotenv
 import os
